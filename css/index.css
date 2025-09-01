@@ -509,10 +509,10 @@
         font-size: 26px;
     }
 
-        #home.main1 img  {
-            width: 50%;
-            
-        }
+    #home.main1 img {
+        width: 50%;
+
+    }
 
     #home.main1 h3 {
         display: none;
@@ -978,4 +978,40 @@
     #yeonjeong .main9 p.copy {
         left: -60px;
     }
+
+}
+
+@media screen and (max-width: 375px) {
+    #about.main2 h1 {
+        margin-left: 18%;
+    }
+
+    #about.main2 .fl {
+        gap: 50px;
+    }
+
+    #about.main2 .fl p {
+        font-size: 10px;
+    }
+
+    #about.main2 .fl .right .tool p {
+        width: 300px;
+    }
+
+    #app.main4 .hamo_explanation .exp a button {
+        color: #2c2c2c;
+    }
+
+    #app.main4 .hamo_explanation .exp a button:hover {
+        color: #fff;
+    }
+
+    #yeonjeong .main4_2 .hoom_explanation .exp a button {
+        color: #2c2c2c;
+    }
+
+    #yeonjeong .main4_2 .hoom_explanation .exp a button:hover {
+        color: #fff;
+    }
+
 }
