@@ -560,7 +560,7 @@
     #home.main1 h1 {
         font-size: 15px;
         margin-bottom: -40px;
-        margin-left: -20px;
+        margin-left: -10px;
         width: 300px;
     }
 
@@ -916,6 +916,13 @@
 
 @media screen and (max-width: 390px) {
 
+    #home.main1 h1 {
+        font-size: 15px;
+        margin-bottom: -40px;
+        margin-left: -20px;
+        width: 300px;
+    }
+
     .sub_head .mobile-menu {
         padding: 15px 0 0 0;
     }
@@ -982,8 +989,16 @@
 }
 
 @media screen and (max-width: 375px) {
+
+    #home.main1 h1 {
+        font-size: 15px;
+        margin-bottom: -40px;
+        margin-left: -25px;
+        width: 300px;
+    }
+
     #about.main2 h1 {
-        margin-left: 18%;
+        margin-left: 16%;
     }
 
     #about.main2 .fl {
