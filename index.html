@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is yeonjeong room</title>
+    <meta name="robots" content="All">
+    <meta name="Yeti" content="index, follow">
+    <meta name="Yeti" content="All">
+    <meta name="googlebot" content="All">
+    <meta name="googlebot" content="index, follow">
+    <meta name="daum" content="All">
+    <meta name="daum" content="index, follow">
+    <meta name="title" content="웹디자이너 - 신연정 포트폴리오">
+    <meta name="description" content="웹디자이너 신연정입니다. 저의 room 방문을 환영해요">
+    <meta name="keywords" content="웹디자이너, 웹퍼블리셔, 대구 디자이너">
+    <meta name="author" content="신연정">
+    <meta name="content-language" content="kr">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="pooh">
+    <meta property="og:title" content="Yeon Jeong ROOM">
+    <meta property="og:description" content="저의 room 구경하고 가세요!">
+    <meta property="og:image" content="img/intbg.jpg">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="300">
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="box1">
+            <ul class="b1_left">
+                <li data-target="home"><img src="img/Apple_logo.png" alt=""></li>
+                <li data-target="about">About me</li>
+                <li data-target="web">Web</li>
+                <li data-target="app">App</li>
+                <li data-target="clone">Clone</li>
+                <li data-target="shopping">Shopping mall</li>
+                <li data-target="another">Graphic</li>
+                <li data-target="contact">Contact</li>
+                <li class="q">
+                    <input type="checkbox" id="help-toggle" hidden>
+                    <label for="help-toggle">도움말</label>
+                    <ul class="b2">
+                        <li>
+                            반가워요! <br>
+                            가장 처음 페이지에서 앞에 보이는 물건 위에 마우스를 올려보세요.<br>
+                            그냥 내리면서 봐도 되고, 도움말 옆 메뉴를 눌러도 된답니다! <br>
+                            다 둘러본 후에는 방명록까지 남겨주시면 감사하겠습니다 ~.~
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="two">
+                <li><img src="img/han.png" alt=""></li>
+                <li><img src="img/wifi.png" alt=""></li>
+                <li><img src="img/search.png" alt=""></li>
+                <li><img src="img/buttun.png" alt=""></li>
+                <li><img src="img/brightness_alert.png" alt=""></li>
+                <li>9월 8일 (월) 오전 9 : 08</li>
+            </ul>
+        </div>
+        <div class="box2">
+            <div class="ellipses">
+                <div class="e1"></div>
+                <div class="e2"></div>
+                <div class="e3"></div>
+            </div>
+            <form action="search" method="GET">
+                <input type="text" name="query" placeholder="yeonjeongroom!.com">
+            </form>
+        </div>
+    </header>
+    <div class="sub_head">
+        <div class="mobile-header">
+            <div class="hamburger" onclick="toggleMobileMenu()">
+                ☰
+            </div>
+            <ul class="mobile-menu" id="mobileMenu">
+                <li data-target="home">Home</li>
+                <li data-target="about">About me</li>
+                <li data-target="web">Web</li>
+                <li data-target="app">App</li>
+                <li data-target="clone">Clone</li>
+                <li data-target="shopping">Shopping mall</li>
+                <li data-target="another">Graphic</li>
+                <li data-target="contact">Contact</li>
+                <li>
+                    <details>
+                        <summary>도움말</summary>
+                        <p>
+                            반가워요!<br>
+                            가장 처음 페이지에서 앞에 보이는 물건 위에 마우스를 올려보세요.<br>
+                            그냥 내리면서 봐도 되고, 도움말 옆 메뉴를 눌러도 된답니다!<br>
+                            web부분이 뜨지 않는다면 새로고침 해주세요! <br>
+                            다 둘러본 후에는 방명록까지 남겨주시면 감사하겠습니다 ~.~
+                        </p>
+                    </details>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="_intro">
+        <div class="int">
+            <div class="b"></div>
+            <div class="text-container">
+                <div id="text1" style="font-size: 30px; font-weight: 600;">안녕하세요!</div>
+                <div id="text2" style="font-size: 30px; font-weight: 600; opacity: 0; transition: opacity 0.5s;">
+                    <span> 조금만 기다려 주세요 ~ ! @ ♥</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main id="yeonjeong">
+        <section id="home" class="main1">
+            <div class="ma1">
+                <img src="img/m1_bed.png" alt="" class="m1">
+                <h3>about me!</h3>
+            </div>
+            <div class="ma2">
+                <img src="img/m1_lamp.png" alt="" class="m2">
+                <h3>Web Design</h3>
+            </div>
+            <div class="ma3">
+                <img src="img/m1_cup.png" alt="" class="m3">
+                <h3>App Design</h3>
+            </div>
+            <div class="ma4">
+                <img src="img/m1_sh.png" alt="" class="m4">
+                <h3>Clone Coding</h3>
+            </div>
+            <div class="ma5">
+                <img src="img/m1_matt.png" alt="" class="m5">
+                <h3>Shopping mall Design</h3>
+            </div>
+            <div class="ma6">
+                <img src="img/m1_pt.png" alt="" class="m6">
+                <h3>Graphic Design & Another</h3>
+            </div>
+            <div class="ma7">
+                <img src="img/m1_tel.png" alt="" class="m7">
+                <h3>contact</h3>
+            </div>
+            <h1>Looking around my room!</h1>
+        </section>
+        <section id="about" class="main2" data-aos="fade-up" data-aos-anchor-placement="top-center">
+            <h2>About me</h2>
+            <h1>Welcome to <strong>my room</strong>!</h1>
+            <div class="fl">
+                <div class="left">
+                    <div class="name">
+                        <p class="click">* "저는요"를 클릭하시면 이력서가 나옵니다! *</p>
+                        <a href="pdf/curriculum vitae.pdf" target="_blank">
+                            <h3>저는요</h3>
+                        </a>
+                        <p>경험하는 것을 사랑하고 아끼는 사람, <strong>신연정</strong>입니다! <br>
+                            세상이 너~~~~~무 넓어서 좋아요 마음껏 돌아다니며 살고 싶어요 @@ <br>
+                            하지만 걱정은 하지 마세요!
+                            저는 자유로운 영혼을 추구하는 철저한 계획가입니다.
+                        </p>
+                    </div>
+                    <h3 class="ed">다녔어요</h3>
+                    <div class="education">
+                        <div class="ed1">
+                            <p>2019.01 - 2022.01</p>
+                            <p>2022.03 - 2024.12</p>
+                            <p>2024.03 ~ </p>
+                            <p>2025.04 - 2025.09</p>
+                        </div>
+                        <div class="ed2">
+                            <p>성산고등학교 졸업(대구)</p>
+                            <p>대구가톨릭대학교</p>
+                            <p>계명대학교 (편입 / 휴학)</p>
+                            <p>(디지털디자인) UX/UI 반응형 웹디자인 & 웹퍼블리셔(디자인&코딩) 실무 프로젝트</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <h3>해봤어요</h3>
+                    <div class="do">
+                        <div class="do1">
+                            <p>2023.01 - 2023.07</p>
+                            <p>2024.03 ~ 2024.08</p>
+                            <p>2024.04 - 2024.12 </p>
+                            <p>2024.03 - 2024.12</p>
+                            <p>2024.07 ~ 2024.08</p>
+                            <p>2024.10 ~ 2025.01</p>
+                        </div>
+                        <div class="do2">
+                            <p>대구남산종합사회복지관[청소년 야간보호 및 학습지도]</p>
+                            <p>보건복지부 <span>국립정신건강센터</span> [정신건강 서포터즈 '영마인드 링크' 1기]</p>
+                            <p>대구광역시 자원봉사센터 V-파트너 8기</p>
+                            <p>본동종합사회복지관[사례관리 대학생 봉사단]</p>
+                            <p>본동종합사회복지관 [사회복지현장실습]</p>
+                            <p><span>연세대학교 고등교육혁신원 사회혁신탐 </span>[실종아동 인식 개선 프로젝트 파동 서포터즈]</p>
+                        </div>
+                    </div>
+                    <div class="tool">
+                        <h3>사용해요</h3>
+                        <p>HTML / CSS / JQUERY / JAVASCRIPT / PHOTOSHOP / ILLUSTRATOR / FIGMA / NOTION</p>
+                    </div>
+                </div>
+            </div>
+            <img src="img/home.png" alt="home">
+        </section>
+        <section id="web" class="main3" data-aos="fade-up" data-aos-anchor-placement="top-center">
+            <h2>Web Design</h2>
+            <div class="tab-content active">
+                <div class="item" data-aos="fade-right">
+                    <div class="bottom-info">
+                        <div class="txt_left">
+                            <p>사용자 중심의 경험을 고려해 새롭게 진행한 리디자인</p>
+                            <span>멜론</span>
+                        </div>
+                        <div class="bt_right">
+                            <a href="pdf/melon.pdf" target="_blank">
+                                <button>Process</button>
+                            </a>
+                            <a href="https://yeonjeong98.github.io/melon/" target="_blank">
+                                <button>Redesign</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" data-aos="fade-down">
+                    <div class="bottom-info">
+                        <div class="txt_left">
+                            <p>정보의 가독성과 시각적 완성도를 높인 리디자인</p>
+                            <span>소금과빛교회</span>
+                        </div>
+                        <div class="bt_right">
+                            <a href="http://www.snlc.kr/" target="_blank">
+                                <button>Existing Site</button>
+                            </a>
+                            <a href="https://yeonjeong98.github.io/slrs/" target="_blank">
+                                <button>Redesign</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" data-aos="fade-left">
+                    <div class="bottom-info">
+                        <div class="txt_left">
+                            <p>접근성과 친화성을 강화하는 방향으로 구성한 디자인 </p>
+                            <span>달도담</span>
+                        </div>
+                        <div class="bt_right2">
+                            <a href="pdf/dadodam.pdf" target="_blank">
+                                <button>Process</button>
+                            </a>
+                            <a href="https://yeonjeong98.github.io/sl/" target="_blank">
+                                <button>MAIN</button>
+                            </a>
+                            <a href="https://yeonjeong98.github.io/sl/index_sub.html" target="_blank">
+                                <button class="sub">SUB</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="app" class="main4" data-aos="fade-up" data-aos-anchor-placement="top-center">
+            <h2 data-aos="fade-up" data-aos-anchor-placement="top-center">App Design</h2>
+            <div class="hamo_explanation" data-aos="zoom-in-right" data-aos-delay="1000">
+                <img src="img/hamo mockup.png" alt="">
+                <div class="exp">
+                    <h3>경산북도청년센터</h3>
+                    <p>경상북도청년센터 앱은 경북 지역 청년들이 보다 쉽고 편리하게 다양한 지원사업과 취·창업 정보, 교육 프로그램, 커뮤니티 활동 등에 접근할 수 있도록 기획되었습니다.
+                        특히, 경상북도청년센터의 공식 캐릭터 공모전과 연계하여 청년들에게 친근하고 친숙한 이미지로 다가가면서, 사용자 경험을 고려한 직관적인 UI/UX 디자인을 적용해 언제
+                        어디서나 간편하게 이용할 수 있는 플랫폼을 제작하였습니다.
+                    </p>
+                    <a href="pdf/hamo_pro.pdf" target="_blank"> <button>프로세스 보러가기</button></a>
+                    <div class="cc"></div>
+                </div>
+            </div>
+        </section>
+        <section class="main4_2">
+            <div class="hoom_explanation" data-aos="zoom-in-right">
+                <img src="img/hoom_moc.png" alt="">
+                <div class="exp">
+                    <h3>HOOM</h3>
+                    <p>현대인들은 바쁜 일상과 과도한 정보 속에서 쉽게 지치고 수면 패턴이 무너지는 경험을 자주 합니다. 이에 착안해, 사용자가 하루의 피로를 해소하고 스스로의 컨디션을 점검할 수
+                        있는 공간을 제공하기 위해 앱을 기획했습니다. 단순한 수면 기록이나 알림 기능을 넘어, 사용자가 자신의 생활 리듬을 되돌아보고 점진적으로 건강한 습관을 형성하도록 돕는 것을
+                        핵심 목표로 삼았습니다. 사용자 경험을 고려해 직관적인 UI를 설계하고, 감성적인 비주얼 이를 통해 앱이 단순한 관리 도구를 넘어 ‘나만의 휴식 공간’으로 느껴질 수 있도록
+                        하고자 했습니다.
+                    </p>
+                    <a href="pdf/hoom.pdf" target="_blank"> <button>프로세스 보러가기</button></a>
+                    <div class="cc"></div>
+                </div>
+            </div>
+        </section>
+        <section id="clone" class="main5" data-aos="fade-up" data-aos-anchor-placement="top">
+            <h2>Clone Coding</h2>
+            <div class="clone">
+                <div class="item" data-aos="fade-down">
+                    <div class="bottom-info">
+                        <div class="txt_left">
+                            <p>1차 클론코딩</p>
+                            <span>노들섬</span>
+                        </div>
+                        <div class="bt_right">
+                            <a href="https://nodeul.org/" target="_blank">
+                                <button>Existing Site</button>
+                            </a>
+                            <a href="https://yeonjeong98.github.io/nodeul/" target="_blank">
+                                <button>Clone</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" data-aos="fade-left">
+                    <div class="bottom-info">
+                        <div class="txt_left">
+                            <p>2차 클론코딩</p>
+                            <span>CMS</span>
+                        </div>
+                        <div class="bt_right">
+                            <a href="https://www.cmsedi.or.kr/cms" target="_blank">
+                                <button>Existing Site</button>
+                            </a>
+                            <a href="https://yeonjeong98.github.io/cms/" target="_blank">
+                                <button>Clone</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="shopping" class="main6" data-aos="fade-up" data-aos-anchor-placement="top-center">
+            <h2>Shopping mall design</h2>
+            <a href="https://wjd2701.cafe24.com/admin/php/shop1/m/goto_front.php?type=pc" target="_blank">
+                <div class="shopp">
+                    <div class="overlay left"></div>
+                    <div class="overlay right"></div>
+                    <img src="img/shoppp.png" alt="">
+                    <a href="https://wjd2701.cafe24.com/admin/php/shop1/m/goto_front.php?type=pc"
+                        class="see-more">GO!</a>
+                </div>
+            </a>
+        </section>
+        <section id="another" class="main7" data-aos="fade-up" data-aos-anchor-placement="top-center">
+            <h2>Graphic Design</h2>
+            <div class="minititle">
+                <ul class="tab-menu">
+                    <li class="active" data-tab="cardnews">Card News</li>
+                    <li data-tab="character">Character Design</li>
+                    <li data-tab="detailed">Detailed Page</li>
+                    <li data-tab="branding">Branding</li>
+                    <!-- <li data-tab="poster">Poster</li> -->
+                    <!-- <li data-tab="proposal">Proposal</li> -->
+                </ul>
+            </div>
+            <div class="tab-content" id="character" .bt_right button>
+                <div class="ct">
+                    <img src="img/hamo_s.png" alt="" class="hamo">
+                    <a href="pdf/hamo.pdf" target="_blank">
+                        <div class="hamo_sm">하모 이야기 보러가기!</div>
+                    </a>
+                </div>
+            </div>
+            <div class="tab-content active" id="cardnews">
+                <div class="swiper card">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/card1.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/card2.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/card3.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/card4.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/card5.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/card6.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/card7.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/card9s.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/card8.png" />
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            </div>
+            <div class="tab-content" id="detailed">
+                <div class="scroll-box">
+                    <span class="scroll-indicator">내려보세요!</span>
+                    <img src="img/osss.jpg" alt="상세 이미지 1" />
+                </div>
+                <div class="scroll-box">
+                    <span class="scroll-indicator">내려보세요!</span>
+                    <img src="img/csspage1.jpg" alt="상세 이미지 1" />
+                </div>
+            </div>
+            <div class="tab-content" id="branding">
+                <div class="image-container">
+                    <img src="img/brand_on.png" alt="">
+                    <a href="pdf/onzip.pdf" target="_blank" class="go">
+                        <div class="b_button">Go!</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="main8" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <h2>Contact</h2>
+            <div class="contact_plase">
+                <div class="last_l">
+                    <div class="contact_box">
+                        <div class="box">
+                            <p>Email</p>
+                            <span>wjd030908@naver.com</span>
+                        </div>
+                        <div class="box">
+                            <p>Phone</p>
+                            <span>010-0000-0000</span>
+                        </div>
+                        <div class="box">
+                            <p>Adress</p>
+                            <span>대구광역시, 달서구</span>
+                        </div>
+                        <div class="box">
+                            <p>SNS</p>
+                            <span>insta</span>
+                        </div>
+                    </div>
+                    <div class="guest-book-container">
+                        <h3>Guest Book!♥</h3>
+                        <input type="text" id="guestName" placeholder="당신의 이름은 무엇인가요?" />
+                        <textarea id="guestMessage" placeholder="연정의 room 어땠나요?"></textarea>
+                        <button onclick="addGuestMessage()">방명록 남기기</button>
+                    </div>
+                </div>
+                <div class="last_r">
+                    <div class="swiper gallery">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="img/g1.png" /></div>
+                            <div class="swiper-slide"><img src="img/g2.png" /></div>
+                            <div class="swiper-slide"><img src="img/g3.png" /></div>
+                            <div class="swiper-slide"><img src="img/g4.png" /></div>
+                            <div class="swiper-slide"><img src="img/g5.png" /></div>
+                            <div class="swiper-slide"><img src="img/me.png" alt=""></div>
+                            <div class="swiper-slide"><img src="img/love.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main9">
+            <h2> Guest Book Messages</h2>
+            <div class="guest-display">
+                <ul id="guestDisplayList"></ul>
+            </div>
+            <p class="copy">ⓒ 2025. 신연정 All rights reserved.</p>
+        </section>
+        <div class="gotop">
+            <img src="img/hover.png" alt="">
+            <p>UP!</p>
+        </div>
+
+        <script>
+            var swiper = new Swiper(".gallery", {
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+                loop: true,
+            });
+        </script>
+    </main>
+</body>
+<script>
+    AOS.init({
+        duration: 1000,
+    });
+
+    //헤더
+    function toggleMobileMenu() {
+        const menu = document.getElementById('mobileMenu');
+        menu.classList.toggle('show');
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        var swiper1 = new Swiper(".card", {
+            grabCursor: true,
+            centeredSlides: true,
+            loop: true,
+            autoplay: {
+                delay: 2000,
+            },
+            initialSlide: 6,
+            slidesPerView: 5,
+            spaceBetween: 4,
+            pagination: {
+                el: ".swiper-pagination",
+            },
+
+            breakpoints: {
+                1920: {
+                    slidesPerView: 5,
+                },
+
+                1440: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+                1024: {
+                    slidesPerView: 2.5,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 30,
+                },
+                425: {
+                    slidesPerView: 1,
+                },
+                390: {
+                    slidesPerView: 1,
+                }
+            }
+        });
+
+        var swiper2 = new Swiper(".brand", {
+            direction: "vertical",
+            slidesPerView: "auto",
+            freeMode: true,
+            scrollbar: {
+                el: ".swiper-scrollbar",
+            },
+            mousewheel: true,
+        });
+    });
+
+
+    function addGuestMessage() {
+        const name = document.getElementById('guestName').value.trim();
+        const message = document.getElementById('guestMessage').value.trim();
+
+        if (name === '' || message === '') {
+            alert('이름과 메시지를 모두 입력해주세요.');
+            return;
+        }
+
+        const guestList = document.getElementById('guestList');
+        const li = document.createElement('li');
+        li.innerHTML = `<strong>${name}</strong>: ${message}`;
+        guestList.appendChild(li);
+
+        // 입력값 초기화
+        document.getElementById('guestName').value = '';
+        document.getElementById('guestMessage').value = '';
+    }
+
+    // --- ✅ 메시지 불러오기 ---
+    window.onload = function () {
+        loadGuestMessages();
+    };
+
+    // --- ✅ 방명록 추가 ---
+    function addGuestMessage() {
+        const name = document.getElementById('guestName').value.trim();
+        const message = document.getElementById('guestMessage').value.trim();
+
+        if (!name || !message) {
+            alert('이름과 메시지를 모두 입력하세요.');
+            return;
+        }
+
+        const newMessage = {
+            id: Date.now(),
+            name,
+            message,
+            time: new Date().toLocaleString()
+        };
+
+        const guestMessages = JSON.parse(localStorage.getItem('guestBook')) || [];
+        guestMessages.push(newMessage);
+        localStorage.setItem('guestBook', JSON.stringify(guestMessages));
+
+        displayGuestMessageInMain9(newMessage);
+
+        document.getElementById('guestName').value = '';
+        document.getElementById('guestMessage').value = '';
+    }
+
+    // --- ✅ 기존 메시지 불러오기 ---
+    function loadGuestMessages() {
+        const guestMessages = JSON.parse(localStorage.getItem('guestBook')) || [];
+        guestMessages.forEach(displayGuestMessageInMain9);
+    }
+
+    // --- ✅ 메시지 출력 ---
+    function displayGuestMessageInMain9(msg) {
+        const list = document.getElementById('guestDisplayList');
+        const li = document.createElement('li');
+        li.setAttribute('data-id', msg.id);
+        li.innerHTML = `
+<strong>${msg.name}</strong>:
+<span class="message-text">${msg.message}</span>
+<span style="color: gray;">(${msg.time})</span>
+<div class="actions">
+    <button class="edit-btn" onclick="editMessage(${msg.id})">수정</button>
+    <button class="delete-btn" onclick="deleteMessage(${msg.id})">삭제</button>
+</div>
+`;
+        list.appendChild(li);
+    }
+
+    // --- ✅ 삭제 ---
+    function deleteMessage(id) {
+        const adminPassword = "yj0908"; // 관리자 비밀번호
+
+        const input = prompt("비밀번호를 입력해주세요!");
+        if (input !== adminPassword) {
+            alert("땡~! 삭제할 수 없습니다.");
+            return;
+        }
+
+        if (!confirm('정말 삭제하시겠습니까?')) return;
+
+        let guestMessages = JSON.parse(localStorage.getItem('guestBook')) || [];
+        guestMessages = guestMessages.filter(msg => msg.id !== id);
+        localStorage.setItem('guestBook', JSON.stringify(guestMessages));
+
+        document.querySelector(`#guestDisplayList li[data-id='${id}']`)?.remove();
+    }
+
+    // --- ✅ 수정 ---
+    function editMessage(id) {
+        const li = document.querySelector(`#guestDisplayList li[data-id='${id}']`);
+        const name = li.querySelector('strong').innerText;
+        const oldMessage = li.querySelector('.message-text').innerText;
+
+        const newMessage = prompt(`${name}님의 메시지를 수정하세요:`, oldMessage);
+        if (newMessage === null || newMessage.trim() === '') return;
+
+        let guestMessages = JSON.parse(localStorage.getItem('guestBook')) || [];
+        guestMessages = guestMessages.map(msg => {
+            if (msg.id === id) {
+                msg.message = newMessage;
+                msg.time = new Date().toLocaleString();
+            }
+            return msg;
+        });
+
+        localStorage.setItem('guestBook', JSON.stringify(guestMessages));
+
+        li.querySelector('.message-text').innerText = newMessage;
+        li.querySelector('span:last-of-type').innerText = `(${new Date().toLocaleString()})`;
+    }
+
+</script>
+
+</html>

@@ -1,0 +1,981 @@
+@media (max-width: 1440px) {
+
+    header {
+        width: 70%;
+    }
+
+    #about.main2 {
+        height: 1200px;
+    }
+
+    #about.main2 h1 {
+        margin-left: 41%;
+        width: 400px;
+    }
+
+    #about.main2 img {
+        left: 50%;
+        top: 11%;
+        width: 60px;
+    }
+
+    #about.main2 .fl {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    #about.main2 .fl .left .ed {
+        margin-top: 70px;
+    }
+
+    #about.main2 .fl .left .education {
+        margin-top: 50px;
+    }
+
+    #about.main2 .right {
+        margin-top: -10px;
+    }
+
+    #about.main2 .right .do {
+        font-size: 16px;
+        line-height: 1.8;
+        margin-top: 50px;
+    }
+
+    #about.main2 .right .tool {
+        font-size: 16px;
+        margin-top: 70px;
+    }
+
+    #clone.main5 .clone {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .main7 #character.tab-content .ct a .hamo_sm {
+        font-size: 35px;
+        right: 18%;
+    }
+
+    #another.main7 #detailed.tab-content.active {
+        margin-left: 10%;
+    }
+
+
+    #shopping.main6 {
+        margin-top: 250px;
+    }
+
+    .main8 .contact_plase {
+        margin-top: 50px;
+    }
+
+    #app.main4 {
+        height: 800px;
+    }
+
+    #app.main4 .hamo_explanation {
+        margin-top: 50px;
+    }
+
+    #app.main4 .cc {
+        display: none;
+    }
+
+    #yeonjeong .main4_2 {
+        height: 800px;
+    }
+
+    #yeonjeong .main4_2 .cc {
+        display: none;
+    }
+
+}
+
+
+
+
+@media (max-width: 1024px) {
+    html body header {
+        width: 100%;
+    }
+
+    html body header ul li {
+        font-size: 12px;
+    }
+
+    html body header .box1 ul li {
+        margin: 2px 10px;
+    }
+
+    html body header .box1 .two li {
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    html body header .box1 .two li:nth-child(1),
+    html body header .box1 .two li:nth-child(6) {
+        margin-top: 13px;
+    }
+
+
+    #home.main1 img {
+        width: 70%;
+    }
+
+    #home.main1 .ma5 {
+        top: 250px;
+    }
+
+    #home.main1 .ma6 {
+        right: 80px;
+        bottom: 300px;
+    }
+
+    #home.main1 .ma7 {
+        right: -10px;
+    }
+
+    #home.main1 h1 {
+        left: 31%;
+        bottom: 23%;
+    }
+
+    #about.main2 h1 {
+        margin-left: 35%;
+    }
+
+    #about.main2 img {
+        left: 48%;
+    }
+
+    #about.main2 .fl .right {
+        font-size: 12px;
+    }
+
+
+    .main2 img.room {
+        display: none;
+    }
+
+
+    #web.main3 {
+        height: 1700px;
+        margin-top: 100px;
+    }
+
+    #web.main3 .tab-content.active {
+        margin-top: 80px;
+    }
+
+
+    #web.main3 .tab-content.active {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #app.main4 {
+        height: 600px;
+    }
+
+    #app.main4 .exp p {
+        width: 400px;
+        font-size: 14px;
+    }
+
+    #app.main4 .mockup .m4_l {
+        margin-top: 50px;
+    }
+
+
+    #app.main4 .mockup .m4_r {
+        margin-top: 50px;
+    }
+
+    #yeonjeong .main4_2 .hoom_explanation .exp p {
+        width: 400px;
+        font-size: 14px;
+    }
+
+    #yeonjeong .main4_2 {
+        padding-top: 0;
+    }
+
+    #yeonjeong .main4_2 .hoom_explanation img {
+        top: 25%;
+    }
+
+    .main5 .clone {
+        flex-direction: column;
+        align-items: center;
+        /* 가운데 정렬 유지 */
+    }
+
+    #shopping.main6 .shopp {
+        width: 80%;
+    }
+
+    #another.main7 {
+        width: 700px;
+    }
+
+    .main7 #character.tab-content .ct a .hamo_sm {
+        right: 15%;
+        top: 40%;
+        font-size: 28px;
+    }
+
+    #another.main7 #character.tab-content img {
+        margin: 80px 40px;
+    }
+
+    #another.main7 #detailed.tab-content.active {
+        margin-left: -60px;
+        margin-top: -50px;
+    }
+
+    #another.main7 {
+        width: 1040px;
+        height: 900px;
+    }
+
+    #another.main7 #branding .image-container img {
+        margin-top: 50px;
+    }
+
+    #another.main7 #detailed.tab-content .scroll-box {
+        width: 60%;
+    }
+
+
+    #contact.main8 {
+        height: 1600px;
+    }
+
+    .contact_plase {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact_plase .last_l {
+        background-color: #fff;
+    }
+
+    .contact_plase .last_l input {
+        background-color: #913131;
+        border-radius: 5px;
+    }
+
+    .contact_plase .last_l textarea {
+        background-color: #913131;
+        border-radius: 5px;
+    }
+
+    .contact_plase .last_l input::placeholder {
+        color: #fff;
+    }
+
+    .contact_plase .last_l textarea::placeholder {
+        color: #fff;
+    }
+
+    #yeonjeong .main9 p.copy {
+        right: 25%;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    body header {
+        display: none;
+    }
+
+    body .sub_head {
+        width: 100%;
+        display: block;
+        position: fixed;
+        z-index: 99;
+    }
+
+    #about.main2 h1 {
+        margin-left: 28%;
+    }
+
+    #about.main2 .fl .left .name {
+        font-size: 13px;
+    }
+
+    #about.main2 .fl .left .education {
+        font-size: 13px;
+    }
+
+    #about.main2 .fl .right .do {
+        font-size: 13px;
+    }
+
+    #about.main2 .fl .right .tool {
+        font-size: 13px;
+    }
+
+    #app.main4 .hamo_explanation .exp p {
+        width: 300px;
+        font-size: 12px;
+    }
+
+    #yeonjeong .main4_2 .hoom_explanation .exp {
+        margin-left: 5%;
+    }
+
+    #yeonjeong .main4_2 .hoom_explanation .exp p {
+        width: 310px;
+        font-size: 12px;
+    }
+
+    #yeonjeong .main4_2 .hoom_explanation img {
+        top: 35%;
+    }
+
+
+    #home.main1 .ma2 {
+        left: 10%;
+    }
+
+    #home.main1 .ma4 {
+        /* width: 200px; */
+        right: 30%;
+    }
+
+    #home.main1 .ma6 {
+        right: -5%;
+    }
+
+    #home.main1 .ma7 {
+        top: 5%;
+        right: 0;
+        width: 300px;
+        width: 250px;
+    }
+
+    #home.main1 h1 {
+        left: 25%;
+    }
+
+    #app.main4 {
+        height: 500px;
+    }
+
+    #app.main4 h3 {
+        font-size: 28px;
+    }
+
+    #app.main4 p {
+        font-size: 14px;
+    }
+
+    .main4_2 {
+        height: 900px;
+    }
+
+    .main4_2 .hoom_explanation .exp h3 {
+        font-size: 28px;
+    }
+
+    .main4_2 .hoom_explanation .exp p {
+        font-size: 14px;
+    }
+
+
+    #app.main4 .hamo_explanation img {
+        width: 400px;
+        height: 300px;
+        margin-left: -60px;
+        margin-top: 50px;
+    }
+
+    #clone.main5 .clone_left {
+        margin-left: 280px;
+    }
+
+    #clone.main5 .clone_right {
+        margin-right: 280px;
+    }
+
+    #shopping.main6 {
+        height: 600px;
+    }
+
+    #another.main7 {
+        height: 1000px;
+    }
+
+    #another.main7 .minititle ul {
+        margin-left: -50px;
+    }
+
+    #another.main7 #detailed.tab-content.active {
+        width: 70%;
+    }
+
+    #another.main7 .scroll-box {
+        margin-top: 50px;
+        margin-left: 5px;
+    }
+
+
+    #another.main7.swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+        margin-left: -120px;
+    }
+
+    #another.main7 #character.tab-content .ct img.hamo {
+        margin: 60px 80px;
+        width: 500px;
+    }
+
+    #another.main7 #character.tab-content .ct a .hamo_sm {
+        top: 62%;
+        right: 52%;
+        font-size: 25px;
+    }
+
+    #another.main7 #detailed {
+        background-color: #fff;
+    }
+
+    #another.main7 #detailed.tab-content.active {
+        margin-left: 10px;
+    }
+
+    #another.main7 #branding.tab-content .image-container img {
+        margin-top: 50px;
+        margin-left: 20px;
+        width: 70%;
+    }
+
+    #another.main7 #branding.tab-content .image-container .go .b_button {
+        width: 150px;
+        height: 40px;
+        padding-top: 10px;
+        font-size: 18px;
+        margin-right: 250px;
+    }
+
+
+    #yeonjeong .main9 p.copy {
+        right: 17%;
+    }
+}
+
+
+
+@media screen and (max-width: 425px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    body header {
+        display: none;
+    }
+
+    body .sub_head {
+        width: 100%;
+        display: block;
+        position: fixed;
+        z-index: 99;
+    }
+
+    body section {
+        padding: 0 10px;
+    }
+
+    body section h2 {
+        font-size: 25px;
+    }
+
+    ._intro .int .text-container span {
+        font-size: 26px;
+    }
+
+        #home.main1 img  {
+            width: 50%;
+            
+        }
+
+    #home.main1 h3 {
+        display: none;
+    }
+
+    #home.main1 .ma1 {
+        top: 5%;
+        left: 6%;
+    }
+
+    #home.main1 .ma2 {
+        top: 16%;
+        left: 66%;
+        width: 220px;
+    }
+
+    #home.main1 .ma3 {
+        top: 28%;
+        left: 20%;
+    }
+
+    #home.main1 .ma4 {
+        top: 36%;
+        left: 60%;
+        width: 200px;
+    }
+
+    #home.main1 .ma5 {
+        top: 45%;
+        left: 20%;
+    }
+
+    #home.main1 .ma6 {
+        bottom: 30%;
+        right: -20%;
+    }
+
+    #home.main1 .ma7 {
+        top: 55%;
+        left: 8%;
+        /* width: 300px; */
+        /* width: 250px; */
+    }
+
+    #home.main1 h1 {
+        font-size: 15px;
+        margin-bottom: -40px;
+        margin-left: -20px;
+        width: 300px;
+    }
+
+    #about.main2 {
+        height: 1100px;
+        padding-top: 50px;
+    }
+
+    #about.main2 img {
+        top: 13%;
+        left: 45%;
+    }
+
+    #about.main2 h1 {
+        font-size: 18px;
+        margin-left: 22%;
+        margin-top: 150px;
+    }
+
+    #about.main2 .fl .left .name {
+        font-size: 12px;
+    }
+
+    #about.main2 .fl .left .education {
+        font-size: 12px;
+    }
+
+    #about.main2 .fl .left .education .ed2 {
+        width: 210px;
+    }
+
+    #about.main2 .fl .right .do {
+        font-size: 12px;
+    }
+
+    #about.main2 .fl .right .do1 p {
+        line-height: 2.1;
+    }
+
+    #about.main2 .fl .right .do2 p {
+        width: 230px;
+        font-size: 10.5px;
+    }
+
+
+    #about.main2 .fl .left {
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+
+    #about.main2 .fl .right h1 {
+        display: none;
+    }
+
+
+    #about.main2 .fl .right .name p {
+        margin-top: 20px;
+    }
+
+    #about.main2 .fl .right {
+        font-size: 10px;
+        margin: 20px 0 0 10px;
+    }
+
+    #about.main2 .fl .right .education {
+        margin-top: 20px;
+    }
+
+    #about.main2 .fl .right .education .ed1 p {
+        width: 90px;
+    }
+
+    #about.main2 .fl .right .education .ed2 {
+        margin-left: 20px;
+    }
+
+    #about.main2 .fl .right .education .ed2 p {
+        width: 180px;
+    }
+
+    #about.main2 .fl .right .do .do1 {
+        line-height: 2;
+    }
+
+    #about.main2 .fl .right .do .do2 {
+        width: 230px;
+        margin-left: 20px;
+        line-height: 2.02;
+    }
+
+    #about.main2 .fl .right .do .do2 span {
+        display: none;
+    }
+
+    #about.main2 .fl .right .tool p {
+        margin-top: 20px;
+        width: 350px;
+    }
+
+
+    #web.main3 {
+        height: 1600px;
+        padding-top: 30px;
+        margin-top: 200px;
+    }
+
+    #web.main3 .tab-content.active .item {
+        width: 300px;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    #web.main3 .bt_right {
+        top: -200%;
+        left: 23%;
+    }
+
+    #web.main3 .tab-content.active .item .bottom-info .txt_left p {
+        font-size: 12px;
+    }
+
+    #web.main3 .tab-content.active .item .bottom-info .bt_right2 a:nth-child(2) .button {
+        margin-top: 50px;
+
+    }
+
+
+    #app.main4 {
+        padding-top: 30px;
+    }
+
+
+    #app.main4 .hamo_explanation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #app.main4 .hamo_explanation p {
+        font-size: 12px;
+        width: 300px;
+    }
+
+
+    #app.main4 .hamo_explanation img {
+        width: 400px;
+        height: 300px;
+        margin: 0 auto;
+    }
+
+    #app.main4 .mockup .m4_l .button a .hover_box1 {
+        width: 50px;
+    }
+
+    #app.main4 .cc {
+        display: none;
+    }
+
+    #app.main4 .hamo_explanation .exp {
+        text-align: center;
+        width: 300px;
+    }
+
+    #yeonjeong .main4_2 .hoom_explanation img {
+        width: 70%;
+        right: 2%;
+        margin-right: 40px;
+        top: -5%;
+    }
+
+    #yeonjeong .main4_2 .hoom_explanation {
+        margin-top: 400px;
+    }
+
+    #yeonjeong .main4_2 .hoom_explanation .exp {
+        margin-top: 350px;
+        margin-left: 16%;
+        text-align: center;
+    }
+
+    #yeonjeong .main4_2 .hoom_explanation .exp p {
+        font-size: 11.8px;
+        width: 300px;
+    }
+
+    #yeonjeong .main4_2 .cc {
+        display: none;
+    }
+
+
+
+    #clone.main5 {
+        height: 1200px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+
+    #clone.main5 .clone .clone_left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 100px;
+    }
+
+    #clone.main5 .clone_left .minititle {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    #clone.main5 .clone_left .minititle p {
+        font-size: 12px;
+    }
+
+    #clone.main5 .clone .clone_right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #shopping.main6 {
+        padding-top: 50px;
+        margin-top: 50px;
+    }
+
+    #another.main7 {
+        height: 1200px;
+        padding-top: 50px;
+    }
+
+    #another.main7 .minititle .tab-menu {
+        margin-left: -40px;
+    }
+
+    #another.main7 .tab-menu li {
+        border: none;
+        text-align: center;
+        width: 200px;
+        padding: 10px;
+    }
+
+    #another.main7 .swiper-slide {
+        margin-left: 6.6px;
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+        width: 30%;
+        margin-left: 5%;
+    }
+
+    #another.main7 #character.tab-content .ct img.hamo {
+        margin: 50px 15px;
+        width: 400px;
+    }
+
+    #another.main7 #character.tab-content .ct a .hamo_sm {
+        top: 55%;
+        right: 67%;
+    }
+
+    #another.main7 #detailed.tab-content.active {
+        /* margin-left: -75px; */
+        width: 50%;
+        flex-direction: column;
+        margin-left: -50px;
+        margin-top: 10px;
+    }
+
+    #another.main7 #detailed.tab-content .scroll-indicator {
+        opacity: 1;
+        pointer-events: none;
+    }
+
+    #another.main7 #detailed.tab-content .scroll-box:hover .scroll-indicator {
+        opacity: 1;
+    }
+
+
+    #another.main7 .minititle ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 14px;
+        text-align: center;
+    }
+
+    #another.main7 #branding.tab-content .image-container img {
+        margin: 50px 0;
+        width: 400px;
+    }
+
+
+    #another.main7 #branding .b_button {
+        font-size: 14px;
+        padding-top: 13px;
+        margin-left: 260px;
+    }
+
+    .tab-menu li.active {
+        border: none;
+    }
+
+    #contact.main8 {
+        padding-top: 30px;
+    }
+
+    #contact.main8 .contact_plase .last_l {
+        text-align: center;
+        margin-top: -30px;
+        margin-bottom: 50px;
+    }
+
+    #contact.main8 .contact_plase .last_r img {
+        width: 320px;
+        height: 300px;
+        margin-left: 30%;
+    }
+
+    #contact.main8 .contact_plase .last_l .box {
+        width: 200px;
+        padding: 12px 0 0 0;
+    }
+
+    #contact.main8 .contact_plase .last_l .contact_box {
+        margin-left: 50px;
+    }
+
+    .last_l .box p {
+        text-align: center;
+    }
+
+    #contact.main8 .contact_plase .last_r {
+        height: 300px;
+    }
+
+
+    body .gotop {
+        width: 55px;
+    }
+
+    body .gotop p {
+        font-size: 10px;
+        top: 31%;
+    }
+
+    #yeonjeong .main9 p.copy {
+        left: -30px;
+        bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+    .sub_head .mobile-menu {
+        padding: 15px 0 0 0;
+    }
+
+    .sub_head .mobile-menu details p {
+        font-weight: 500;
+    }
+
+    #yeonjeong .main4_2 .hoom_explanation .exp {
+        margin-left: 9%;
+    }
+
+
+    #clone.main5 .clone .item {
+        width: 300px;
+        height: 300px;
+    }
+
+    #clone.main5 .bt_right {
+        left: 25%;
+    }
+
+    #another.main7 .swiper-slide {
+        margin-left: 4px;
+    }
+
+    #another.main7 .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+        margin-left: 2.5%;
+    }
+
+    #another.main7 .minititle .tab-menu {
+        margin-left: -30px;
+    }
+
+    #another.main7 .minititle .tab-menu li {
+        font-size: 12px;
+        width: 170px;
+    }
+
+    #another.main7 #character.tab-content .ct img.hamo {
+        width: 350px;
+        margin-top: 80px;
+    }
+
+    #another.main7 #character.tab-content .ct a .hamo_sm {
+        right: 69%;
+        margin-top: -30px;
+    }
+
+    #another.main7 #detailed.tab-content.active {
+        margin-left: -96px;
+        width: 50%;
+    }
+
+    #another.main7 #branding.tab-content .image-container img {
+        width: 370px;
+    }
+
+    #yeonjeong .main9 p.copy {
+        left: -60px;
+    }
+}
