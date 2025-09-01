@@ -1,24 +1,25 @@
 $(function () {
+    const intro = document.querySelector('._intro')
+    const text1 = document.getElementById('text1')
+    const text2 = document.getElementById('text2')
 
-    window.addEventListener('load', () => {
-        const intro = document.querySelector('._intro')
-        const text1 = document.getElementById('text1')
-        const text2 = document.getElementById('text2')
-
-        setTimeout(() => {
-            text1.style.opacity = '0'
-            text2.style.opacity = '1'
-        }, 1000)
-
-        setTimeout(() => {
-            intro.style.opacity = '0'
-            intro.style.pointerEvents = 'none'
-        }, 3000)
-    })
-
+    // text1 -> text2 전환
     setTimeout(() => {
-        intro.classList.add('hide')
-    }, 2000)
+        text1.style.opacity = '0'
+        text2.style.opacity = '1'
+    }, 1000)
+
+    // 인트로 사라지기 (fade out)
+    setTimeout(() => {
+        intro.style.opacity = '0'
+        intro.style.pointerEvents = 'none'
+    }, 3000)
+
+    // 완전히 숨김 (display:none 또는 class 추가)
+    setTimeout(() => {
+        intro.classList.add('hide') // hide 클래스에 display:none 또는 visibility:hidden 처리 필요
+    }, 3500)
+
 
     function smoothScrollTo(targetPos, duration = 300) {
         const start = window.pageYOffset
